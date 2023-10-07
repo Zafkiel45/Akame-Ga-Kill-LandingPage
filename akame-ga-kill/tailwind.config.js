@@ -12,6 +12,12 @@ module.exports = {
       },
       backgroundImage: {
       },
+      backgroundColor: {
+        'red-claro': '#CF0000'
+      },
+      colors: {
+        'red-claro-text': 'red'
+      }
     },
   },
   plugins: [],

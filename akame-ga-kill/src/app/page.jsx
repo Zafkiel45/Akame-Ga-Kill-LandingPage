@@ -1,12 +1,14 @@
 import Image from 'next/image'
-import { Header } from './components/header'
 import { MainInfos } from './components/MainInfos'
+import { Sinopse } from './components/Sinopse'
+import { Divisoria } from './components/divisória'
 
 export default function Home() {
   return (
     <>
-      <Header/>
       <MainInfos/>
+      <Sinopse/>
+      <Divisoria/>
     </>
   )
 }
