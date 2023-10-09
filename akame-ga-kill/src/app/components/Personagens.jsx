@@ -18,17 +18,18 @@ import { useState, useEffect } from 'react'
 export const Personagens = () => {
 
     const CarrosselRef = useRef(null);
-    const CarrosselRefChildren = useRef(null);
     const [controle, setControle] = useState(0)
 
     useEffect(() => {
         const elementos = CarrosselRef.current.childElementCount;
+        const WhidthAtual = CarrosselRef.current.clientWidth;
+
         if(controle >= elementos) {
             CarrosselRef.current.scrollLeft = 0
             setControle(0)
         } else if(controle < 0) {
-            CarrosselRef.current.scrollLeft = 0
-            setControle(0)
+            CarrosselRef.current.scrollLeft = (elementos - 1) * WhidthAtual
+            setControle(elementos -1)
         }
     }, [controle])
 
@@ -36,14 +37,12 @@ export const Personagens = () => {
         const WhidthAtual = CarrosselRef.current.clientWidth;
         let scrollX = CarrosselRef.current.scrollLeft
         CarrosselRef.current.scrollLeft = scrollX + WhidthAtual
-
         setControle(() => controle + 1)
     }
     const PrevImg  = () => {
         let WhidthAtual = CarrosselRef.current.clientWidth;
         let scrollX = CarrosselRef.current.scrollLeft
         CarrosselRef.current.scrollLeft = scrollX - WhidthAtual
-
         setControle(() => controle - 1)
     }
 
