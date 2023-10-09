@@ -3,7 +3,7 @@ import Logo_Akame from '../../../public/images/logoK.webp'
 
 export const MainInfos = () => {
     return (
-        <div className="z-0 top-0 left-0 p-10 h-750 gap-9 py-14 items-start flex flex-col justify-start bg-no-repeat w-screen object-cover bg-cover bg-center bg-[url('../../public/images/banner.webp')]">
+        <div className="z-0 top-0 left-0 p-10 h-[797px] gap-9 py-14 items-start flex flex-col justify-start bg-no-repeat w-screen object-cover bg-cover bg-center bg-[url('../../public/images/banner.webp')]">
             <figure className="relative right-24 w-3/6 h-3/6 object-cover">
                 <Image src={Logo_Akame} fill={true} />
             </figure>
