@@ -52,7 +52,7 @@ export const Personagens = () => {
     }
 
     return (
-        <div className='flex items-center flex-col bg-black'>
+        <div className='flex items-center flex-col pb-10 bg-gradient-to-b from-[#4f0606] to-black'>
             <div className='p-5 mt-14 rounded-2xl border-2 border-red-900 w-[80%] text-white bg-zinc-900 '>
                 <h1 className='font-semibold text-2xl p-3'>Conheça alguns dos principais personagens da obra!</h1>
                 Conheça alguns dos principais personagens presente na obra logo abaixo. Vale lembrar que são apenas alguns personagens
