@@ -5,7 +5,7 @@ export const Sinopse = () => {
     return (
         <div className="text-white font-bold relative w-screen py-28 px-4 bg-black" >
             <h1 className="text-center p-7 text-3xl">Sinopse</h1>
-            <p className="text-justify px-7 text-lg">
+            <p className="text-justify px-7 text-xl">
                 Night Raid é o ramo de assassinatos secretos do Exército Revolucionário, 
                 uma revolta montada para derrubar o primeiro-ministro Honest, cuja avareza 
                 e ganância pelo poder o levaram a tirar vantagem da inexperiência do imperador 
@@ -14,6 +14,7 @@ export const Sinopse = () => {
                 assassinos experientes, eles entendem que tirar vidas está longe de ser louvável
                 e que provavelmente enfrentarão retribuição ao eliminarem impiedosamente qualquer
                 um que esteja no caminho da revolução.
+            <br />
             <br />
                 O mais novo membro deste alegre bando de assassinos é Tatsumi, um garoto ingênuo
                  de uma vila remota que embarcou em uma jornada para ajudar sua empobrecida cidade

@@ -8,7 +8,7 @@ import { Footer } from './components/footer'
 
 export default function Home() {
   return (
-    <>
+    <div className='h-full w-screen'>
       <MainInfos/>
       <Sinopse/>
       <Divisoria/>
@@ -16,6 +16,6 @@ export default function Home() {
       <Divisoria2/>
       <Detalhes/>
       <Footer/>/
-    </>
+    </div>
   )
 }
