@@ -3,6 +3,8 @@ import { Sinopse } from './components/Sinopse'
 import { Divisoria } from './components/divisória'
 import { Personagens } from './components/Personagens'
 import { Divisoria2 } from './components/divisória2'
+import { Detalhes } from './components/detalhes'
+import { Footer } from './components/footer'
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <Divisoria/>
       <Personagens/>
       <Divisoria2/>
+      <Detalhes/>
+      <Footer/>/
     </>
   )
 }
