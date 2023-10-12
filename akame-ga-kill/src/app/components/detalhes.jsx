@@ -7,7 +7,10 @@ export const Detalhes = () => {
             <div className="w-1/2 p-5 bg-black ml-8 mt-14 text-2xl text-justify rounded-3xl ">
                 <p>
 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nesciunt numquam dolores cum magni rerum at ducimus, repellat culpa quod rem aperiam doloremque deleniti molestias tenetur ipsam consequatur porro quisquam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dolorum, nesciunt numquam dolores cum magni rerum at ducimus, 
+                    repellat culpa quod rem aperiam doloremque deleniti molestias tenetur 
+                    ipsam consequatur porro quisquam!
 
                     {/*
                     Akame ga Kill é uma obra de Tetsuya Tashiro com seu primeiro sendo publico em 

@@ -15,7 +15,7 @@ export default function Home() {
       <Personagens/>
       <Divisoria2/>
       <Detalhes/>
-      <Footer/>/
+      <Footer/>
     </div>
   )
 }
